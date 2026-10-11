@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+server/node_modules/
+client/node_modules/
+
+# Production build
+dist/
+client/dist/
+
+# Environment files
+.env
+server/.env
+server/.env.local
+
+# SQLite database file
+*.db
+*.db-journal
+server/prisma/*.db
+server/prisma/*.db-journal
+
+# Logs & Editors
+npm-debug.log*
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
